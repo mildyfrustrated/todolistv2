@@ -65,7 +65,7 @@ button {
     font-size: 25px;
     align-items: right;
     text-wrap: nowrap;
-    width: clamp(100px, 185px, 200px);
+    width: clamp(100px, 165px, 200px);
     height: clamp(10px, 35px, 60px);
     margin-left: auto;
     bottom: 28px;
@@ -83,7 +83,7 @@ button {
 
 #link {
     position: relative;
-    left: 30px;
+    left: 10px;
     text-decoration: none;
     color: white;
     font-size: clamp(15px, 22px, 25px);
@@ -110,7 +110,7 @@ ul li {
 }
 
 ul {
-    padding-top: 60px;
+    padding-top: 120px;
 }
 
 ul li:hover  {
