@@ -14,8 +14,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: scroll;
-    overflow-y: scroll;
+    overflow: hidden;
 }
 
 .container h1 {
