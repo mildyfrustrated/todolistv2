@@ -14,17 +14,23 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: scroll;
 }
 
 .container h1 {
     position: relative;
     top: 20px;
-    font-size: 80px;
+    font-size: clamp(50px, 60px, 70px);
 }
 
 .contents {
     text-align: center;
+}
+
+.input {
+    position: relative;
+    top: 50px;
 }
 
 input {
@@ -49,6 +55,7 @@ button {
     height: 35px;
     border-radius: 2px;
     opacity: 0.33;
+    font-size: clamp(10px, 15px, 25px);
 }
 
 #donkey {
@@ -64,6 +71,7 @@ button {
     bottom: 28px;
     transition: ease 0.3s;
     opacity: 1;
+    
 }
 
 #normal {
@@ -75,9 +83,11 @@ button {
 
 #link {
     position: relative;
-    left: 7px;
+    left: 30px;
     text-decoration: none;
     color: white;
+    font-size: clamp(15px, 22px, 25px);
+    
 }
 
 #donkey:hover {
